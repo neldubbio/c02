@@ -1,13 +1,14 @@
 # c02
 
-c02 is a single header C library that provides a very simple API to emulate a 6502 processor.
+c02 is a single-file C/C++ library to emulate a 6502 processor.
 Only supports legal opcodes.
 
-Tested with Klaus Dormann's functional test suite and Bruce Clark's decimal mode test program:
+See [c02.h](https://github.com/neldubbio/c02/blob/main/c02.h) for the API documentation.
 
+Tested with Klaus Dormann's functional test suite and Bruce Clark's decimal mode test program:
 https://github.com/Klaus2m5/6502_65C02_functional_tests
 
-# Example
+## Example
 
 Here's a little example that shows how to run Klaus Dormann's "6502_functional_test.bin" test program:
 
